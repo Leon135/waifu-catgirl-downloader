@@ -11,11 +11,13 @@ function App() {
     return (
         <div className="container">
             <NavBar />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/waifus" element={<WaifusPage />} />
-                <Route path="/catgirls" element={<CatgirlPage />} />
-            </Routes>
+            <BrowserRouter basename="/waifu-catgirl-downloader">
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/waifus" element={<WaifusPage />} />
+                    <Route path="/catgirls" element={<CatgirlPage />} />
+                </Routes>
+            </BrowserRouter>
             <Footer />
         </div>
     );

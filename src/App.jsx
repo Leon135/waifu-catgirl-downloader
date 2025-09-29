@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -11,13 +12,11 @@ function App() {
     return (
         <div className="container">
             <NavBar />
-            <BrowserRouter basename="/waifu-catgirl-downloader">
-                <Routes>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/waifus" element={<WaifusPage />} />
-                    <Route path="/catgirls" element={<CatgirlPage />} />
-                </Routes>
-            </BrowserRouter>
+            <Routes>
+                <Route path="*" element={<HomePage />} />
+                <Route path="/waifus" element={<WaifusPage />} />
+                <Route path="/catgirls" element={<CatgirlPage />} />
+            </Routes>
             <Footer />
         </div>
     );

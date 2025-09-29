@@ -10,7 +10,7 @@ const HomePage = () => {
                 </p>
                 <figure>
                     <img
-                        src="src/assets/yae.jpg"
+                        src="yae.jpg"
                         alt="Yae Miko"
                         width="200"
                         style={{ borderRadius: "10px" }}
@@ -27,7 +27,9 @@ const HomePage = () => {
                     <a href="https://github.com/NyarchLinux/CatgirlDownloader/tree/master">
                         CatgirlDownloader
                     </a>{" "}
-                    made by <a href="https://github.com/NyarchLinux">NyArch linux</a> and i liked it.
+                    made by{" "}
+                    <a href="https://github.com/NyarchLinux">NyArch linux</a>{" "}
+                    and i liked it.
                     <br />
                     But there was no windows/web version, so i made my one in
                     React as a learning project.

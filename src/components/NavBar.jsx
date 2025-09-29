@@ -8,8 +8,22 @@ const NavBar = () => {
                     <li>
                         <Link
                             to="/"
-                            style={{ color: "inherit", textDecoration: "none" }}
+                            style={{
+                                color: "inherit",
+                                textDecoration: "none",
+                                display: "flex",
+                                alignItems: "center",
+                            }}
                         >
+                            <img
+                                src="icon.jpg"
+                                alt="Yae Miko"
+                                width="20"
+                                style={{
+                                    borderRadius: "20px",
+                                    marginRight: ".5rem",
+                                }}
+                            />
                             <strong>Waifu & Catgirl downloader</strong>
                         </Link>
                     </li>
@@ -23,6 +37,7 @@ const NavBar = () => {
                     </li>
                 </ul>
             </nav>
+            <hr />
         </>
     );
 };

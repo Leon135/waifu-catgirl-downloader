@@ -37,15 +37,32 @@ const WaifusPage = () => {
             <header>
                 <h1>Waifus Page</h1>
                 <section className="grid">
-                    <button onClick={() => setNsfw(!nsfw)}>
+                    <button
+                        className={nsfw ? "" : "outline"}
+                        onClick={() => setNsfw(!nsfw)}
+                    >
                         NSFW ({nsfw ? "On" : "Off"})
                     </button>
-                    <button onClick={() => setGif(!gif)}>
+                    <button
+                        className={gif ? "" : "outline"}
+                        onClick={() => setGif(!gif)}
+                    >
                         GIF ({gif ? "On" : "Off"})
                     </button>
-                    <button onClick={fetchWaifu} aria-busy={isLoading}>
+                    <button className="outline"
+                    onClick={fetchWaifu} aria-busy={isLoading}>
                         {isLoading ? "Loading..." : "WAIFU"}
                     </button>
+                    {imageURL && (
+                        <button
+                            className="secondary"
+                            onClick={() => {
+                                window.open(imageURL);
+                            }}
+                        >
+                            Save Image
+                        </button>
+                    )}
                 </section>
             </header>
             <main>
@@ -56,19 +73,10 @@ const WaifusPage = () => {
                         className="center"
                         src={imageURL}
                         alt={imageURL == "" ? "" : "Waifu"}
+                        style={{ borderRadius: "10px", maxHeight: "70vh" }}
                     />
                 ) : (
                     <p>No image found</p>
-                )}
-                {imageURL && (
-                    <button
-                        onClick={() => {
-                            window.open(imageURL);
-                        }}
-                        style={{ marginTop: "1rem", display: "block" }}
-                    >
-                        Save Image
-                    </button>
                 )}
             </main>
         </>

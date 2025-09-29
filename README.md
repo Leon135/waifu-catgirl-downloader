@@ -1,16 +1,18 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Waifu & Catgirl Downloader
 
-Currently, two official plugins are available:
+This is a simple app to download random waifus and catgirls.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use the navigation bar to explore the pages.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About
 
-## Expanding the ESLint configuration
+Wonder how it was made?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I saw [CatgirlDownloader](https://github.com/NyarchLinux/CatgirlDownloader/tree/master) made by NyArch linux and I liked it.
+
+But there was no Windows/web version, so I made my own in React as a learning project.
+
+It uses [waifu.im](https://waifu.im/docs) and [nekos.moe](https://docs.nekos.moe/) APIs to fetch images.

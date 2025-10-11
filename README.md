@@ -5,8 +5,6 @@ This is a simple app to download random waifus and catgirls.
 
 Use the navigation bar to explore the pages.
 
----
-
 ## About
 
 Wonder how it was made?

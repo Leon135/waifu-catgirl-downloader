@@ -6,6 +6,8 @@ A simple, lightweight web app to download random waifus and catgirls. Because so
 
 This project started as a learning exercise inspired by [CatgirlDownloader](https://github.com/NyarchLinux/CatgirlDownloader) by NyArch Linux. While the original was great, it lacked a Windows/Web version, so I decided to build my own in React.
 
+I will revrite it in Astro eventually, but for now, it's a React app. Didn't know about astro back then.
+
 ## Features
 
 - Random waifu/catgirl image
@@ -19,11 +21,11 @@ This project started as a learning exercise inspired by [CatgirlDownloader](http
 
 ## Screenshots
 
-![Homepage](/assets/waifu-catgirl-downloader/home.png)
+![Homepage](/screenshots/home.png)
 
-![Waifus](/assets/waifu-catgirl-downloader/waifus.png)
+![Waifus](/screenshots/waifus.png)
 
-![Catgirls](/assets/waifu-catgirl-downloader/catgirls.png)
+![Catgirls](/screenshots/catgirls.png)
 
 ## Built with
 

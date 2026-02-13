@@ -29,8 +29,7 @@ I will revrite it in Astro eventually, but for now, it's a React app. Didn't kno
 
 ## Built with
 
-- **React** - UI framework
-- **Vite** - Build tool & dev server
+- **React**
 - **Pico CSS** - Minimalist CSS framework
 - **APIs Used:**
   - [waifu.im](https://waifu.im/docs) - Waifu images
@@ -41,3 +40,11 @@ I will revrite it in Astro eventually, but for now, it's a React app. Didn't kno
 Nah, I ain't explaining that.
 
 Git clone, npm run dev, typical... In other wors I haven't added anything more.
+
+## License
+
+MIT
+
+---
+
+**Built with 💜 by [Leon135](https://leon135.xyz)**

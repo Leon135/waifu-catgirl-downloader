@@ -29,8 +29,8 @@ I will revrite it in Astro eventually, but for now, it's a React app. Didn't kno
 
 ## Built with
 
-- **React**
-- **Pico CSS** - Minimalist CSS framework
+- [React](https://reactjs.org/) - JS framework
+- [Pico.css](https://picocss.com/) - My favorite CSS framework, simple and minimalistic
 - **APIs Used:**
   - [waifu.im](https://waifu.im/docs) - Waifu images
   - [nekos.moe](https://docs.nekos.moe/) - Catgirl images
